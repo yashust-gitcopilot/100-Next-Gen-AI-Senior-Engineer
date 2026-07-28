@@ -1,0 +1,90 @@
+Assignment: Diabetes Prediction using Neural Networks 
+
+In this assignment, you will build an Artificial Neural Network (ANN) using the provided Diabetes 
+Dataset to predict whether a patient is likely to have diabetes based on various medical attributes. 
+
+Your goal is to implement an end-to-end Deep Learning classification pipeline, including data 
+preprocessing, model building, training, evaluation, and performance analysis using 
+TensorFlow/Keras. 
+
+This assignment will help you understand: 
+• End-to-end Deep Learning workflow  
+• Data preprocessing for neural networks  
+• Building Artificial Neural Networks (ANN)  
+• Activation functions  
+• Optimizers  
+• Model training and evaluation 
+
+Dataset Description 
+The dataset contains patient health-related attributes that can be used to predict the likelihood of 
+diabetes. 
+
+Assignment Tasks 
+You must complete the following stages. 
+Part 1 — Data Preparation 
+Prepare the dataset for training the neural network. 
+Tasks 
+1. Load the dataset using Pandas.  
+2. Explore the dataset:  
+a. Shape of the dataset  
+b. Column names  
+c. Data types  
+d. Missing values (if any)  
+3. Separate the dataset into:  
+a. Features (X)  
+b. Target Variable (y)  
+4. Perform Train-Test Split.  
+5. Apply Feature Scaling using StandardScaler. 
+
+Deliverables 
+• Dataset summary  
+• Feature and target separation  
+• Scaled training and testing datasets  
+Part 2 — Building the Artificial Neural Network 
+Create a Deep Learning model using TensorFlow/Keras. 
+Tasks 
+1. Import the required TensorFlow/Keras libraries.  
+2. Create a Sequential model.  
+3. Add the following layers:  
+• Input Layer  
+• First Hidden Layer  
+• Second Hidden Layer  
+• Output Layer  
+4. Use the following activation functions:  
+
+• ReLU for hidden layers  
+• Sigmoid for the output layer  
+5. Compile the model using:  
+• Optimizer: Adam 
+• Loss Function: Binary Crossentropy 
+• Metric: Accuracy 
+Deliverables 
+• ANN architecture  
+• Explanation of each layer  
+• Activation functions used  
+• Optimizer and loss function selected 
+
+Part 3 — Model Training 
+Train the neural network using the prepared dataset. 
+Tasks 
+1. Train the model using the training dataset.  
+2. Select suitable values for:  
+a. Epochs  
+Deliverables 
+• Model training output  
+• Final training accuracy  
+• Number of epochs used  
+Part 4 — Model Evaluation 
+Evaluate the performance of the trained ANN. 
+Tasks 
+1. Generate predictions on the test dataset.  
+2. Convert prediction probabilities into binary class labels.  
+3. Evaluate the model using:  
+• Accuracy Score  
+• Confusion Matrix 
+
+Deliverables 
+• Model accuracy  
+• Confusion Matrix  
+• Brief interpretation of the results
+
